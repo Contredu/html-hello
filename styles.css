@@ -1,0 +1,67 @@
+body{
+    background: black;
+
+}
+
+.encabezado{
+    background: white;
+    text-align: center;
+
+}
+
+.encabezado h1{
+    margin: 0%;
+    font-size: medium;
+}
+
+.cuerpo{
+    background: rgb(184, 180, 180);
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    overflow-y: scroll;
+ 
+}
+
+.post{
+    background: white;
+    width: 300px;
+    margin: auto;
+    margin-top: 2%;
+    overflow-y: scroll;
+    
+}
+
+.titulo {
+    display: flex;   
+    font-size: small; 
+}
+
+p {
+    width: 250px;
+    padding: 1px;
+    margin: 0px;
+}
+
+#numero{
+
+    padding: 1px; 
+    width: 30px;
+    margin: 0px;
+}
+
+.imagen img{
+    
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.descripcion{
+    font-size: small;
+    padding: 2px;
+}
